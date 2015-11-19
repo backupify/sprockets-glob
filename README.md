@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sprockets-glob.svg)](https://badge.fury.io/rb/sprockets-glob)
 
-adds `require_glob` and `stub_glob` directives to Sprockets
+adds `require_glob` and `stub_glob` directives to [sprockets](https://github.com/rails/sprockets)
 
 ## Installation
 
