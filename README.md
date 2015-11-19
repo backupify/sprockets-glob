@@ -21,6 +21,6 @@ require 'sprockets-glob'
 Rails.application.assets.register_processor('application/javascript', Sprockets::Glob::DirectiveProcessor)
 
 # application.js
-//= require_glob app/features/**/*.js
-//= stub_glob app/features/**/*test.js
+//= require_glob features/**/*.js
+//= stub_glob features/**/*test.js
 ```
