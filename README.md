@@ -4,6 +4,8 @@
 
 adds `require_glob` and `stub_glob` directives to [sprockets](https://github.com/rails/sprockets)
 
+These were already in an example in the Sprockets repo, but we've used them enough to package them into a gem.
+
 ## Installation
 
 ```rb
