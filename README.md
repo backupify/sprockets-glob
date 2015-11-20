@@ -19,7 +19,7 @@ Then you can use it in your normal Sprockets pipeline. Here's an example using j
 
 ```rb
 # config/initializers/sprockets.rb
-require 'sprockets-glob'
+require 'sprockets/glob'
 Rails.application.assets.register_processor('application/javascript', Sprockets::Glob::DirectiveProcessor)
 
 # application.js
